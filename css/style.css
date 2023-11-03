@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Titillium+Web:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh !important;
+}
+header{
+    background: url(../imagenes/portada\ \ dd2.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 241, 241);
+    
+}
+
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 30px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(254, 252, 252);
+    padding: 0 15px;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px rgb(19, 18, 18);
+    background-color: rgba(57, 211, 11, 0.461);
+    border-radius: 100px;
+   
+    
+    
+}
+nav a:hover{
+    color: rgb(22, 90, 163);
+    text-shadow: 1px 1px 5px wheat;
+ 
+    
+}
+
+#primera-seccion-contenido h1 { text-transform: uppercase;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 50px;
+    width: 1000px;
+    height: 500px;
+    text-shadow: 8px 8px 20px rgb(0, 0, 0); 
+    padding: 0%;
+    color: rgb(240, 242, 244);
+     
+   
+    
+
+}
+
+   #segunda-seccion{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding: 1px;
+    background-color: rgb(96, 86, 81);
+    color: white;
+    
+   }
+
+   #segunda-seccion-servicios{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding: 1px;
+    margin: 0px;
+    background-color: rgb(96, 86, 81);
+    color: rgb(255, 252, 252);
+    text-align: center;
+    
+   }
+   #tercera-seccion{
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    padding: 100px;
+    background-color: rgb(141, 140, 76);
+    color: white;
+    text-align: center;
+    
+   }
+
+   .columna {
+    width: 33.33%;
+    float: left;
+  }
+  .columna img {
+    width: 100%;
+    height: auto;
+  }
+  .columnan {
+    width: 100%;
+    float: left;
+  }
+  .columnan img {
+    width: 100%;
+    height: auto;
+  }
+  
+#tercera {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 80px 0;
+    overflow: hidden;
+    align-items: center;
+} 
+#titulos {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulos h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 500px){
+    header {padding: 0px;}
+    .barra-navegacion img {
+        width:100px ;
+        
+    }
+    .barra-navegacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       padding top: 40px;
+       padding-bottom: 0;
+       margin: auto 50px;
+        
+    }
+    .barra-navegacion p, nav{
+       text-align: center;
+        
+    }
+    nav a{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    header{
+        background: url(../imagenes/dfffd.jpg);
+        height: 100vh;
+        background-attachment: fixed;
+        background-position:center;
+        color: rgb(6, 0, 0);
+        height: 1000p;
+        
+    }
+    #segunda-seccion-servicios{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-style: italic;
+        padding: 1px;
+        margin: 0px;
+        background-color: rgb(96, 86, 81);
+        color: rgb(255, 252, 252);
+        text-align: center;
+        font-size: 10px;
+        
+       }
+       #tercera-seccion{
+        height: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-style: italic;
+        padding: 100px;
+        background-color: rgb(141, 140, 76);
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        
+       }
+    #primera-seccion-contenido h1 { text-transform: uppercase;
+        margin-top: 70px;
+        margin-left: 100px;
+        font-size: 10px;
+        font-weight: 50px;
+        width: 300px;
+        height: 500px;
+        text-shadow: 8px 8px 20px rgb(243, 238, 238); 
+        padding: 0%;
+        color: rgb(0, 3, 6);
+        text-align: center;
+
+    
+
+
+
+
+
+
+
+
+
+
+
